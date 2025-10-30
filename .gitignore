@@ -1,9 +1,5 @@
 # dir
-bin/
-lib/
-man/
-plugin/
-share/
 
 # file
 lazy-lock.json
+.*~
