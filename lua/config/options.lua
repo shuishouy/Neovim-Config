@@ -14,12 +14,11 @@ opt.expandtab = true
 opt.autoindent = true
 
 -- 防止包裹
-opt.wrap = false
+opt.wrap = true
+-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 -- 光标行
 opt.cursorline = true
--- 右侧参考线，超过表示代码太长了，考虑换行
--- vim.wo.colorcolumn = "105"
 
 -- 启用鼠标
 opt.mouse:append("a")
