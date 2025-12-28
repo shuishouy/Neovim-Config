@@ -4,7 +4,7 @@ return {
     require('Comment.api').toggle.linewise.current()
   end),
 
-  vim.keymap.set('x', '<C-/>', function()
+  vim.keymap.set('x', '<C-/>', function()  -- 类似vscode的注释放快捷
     local api = require 'Comment.api'
     local esc = vim.api.nvim_replace_termcodes('<ESC>', true, false, true)
     vim.api.nvim_feedkeys(esc, 'nx', false)
